@@ -4,8 +4,8 @@ mkdir environment
 
 cd environment
 
-conda create -p ./myenv jupter
+conda create -p ./vuienv jupyter -y
 
-conda activate myenv
+conda activate ./vuienv
 
-pip install numpy pandas matplotlib tabulate opencv-python
+pip install pandas tabulate numpy matplotlib opencv-python
